@@ -11,7 +11,7 @@ import SwiftUI
 struct alquitizerApp: App {
     var body: some Scene {
         WindowGroup {
-            AlquitizerTabView()
+            AppetizerTabView()
         }
     }
 }
