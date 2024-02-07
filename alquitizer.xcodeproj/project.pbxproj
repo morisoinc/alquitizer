@@ -8,18 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		B0499E932B740843007585E6 /* alquitizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0499E922B740843007585E6 /* alquitizerApp.swift */; };
-		B0499E952B740843007585E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0499E942B740843007585E6 /* ContentView.swift */; };
+		B0499E952B740843007585E6 /* AlquitizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0499E942B740843007585E6 /* AlquitizerTabView.swift */; };
 		B0499E972B740844007585E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0499E962B740844007585E6 /* Assets.xcassets */; };
 		B0499E9B2B740844007585E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0499E9A2B740844007585E6 /* Preview Assets.xcassets */; };
+		B0499EA22B74089F007585E6 /* AlquitizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0499EA12B74089F007585E6 /* AlquitizerListView.swift */; };
+		B0499EA42B7408A8007585E6 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0499EA32B7408A8007585E6 /* AccountView.swift */; };
+		B0499EA62B7408B0007585E6 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0499EA52B7408B0007585E6 /* OrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B0499E8F2B740843007585E6 /* alquitizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alquitizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0499E922B740843007585E6 /* alquitizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alquitizerApp.swift; sourceTree = "<group>"; };
-		B0499E942B740843007585E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B0499E942B740843007585E6 /* AlquitizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlquitizerTabView.swift; sourceTree = "<group>"; };
 		B0499E962B740844007585E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0499E982B740844007585E6 /* alquitizer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = alquitizer.entitlements; sourceTree = "<group>"; };
 		B0499E9A2B740844007585E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B0499EA12B74089F007585E6 /* AlquitizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlquitizerListView.swift; sourceTree = "<group>"; };
+		B0499EA32B7408A8007585E6 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		B0499EA52B7408B0007585E6 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				B0499E922B740843007585E6 /* alquitizerApp.swift */,
-				B0499E942B740843007585E6 /* ContentView.swift */,
+				B0499E942B740843007585E6 /* AlquitizerTabView.swift */,
 				B0499E962B740844007585E6 /* Assets.xcassets */,
 				B0499E982B740844007585E6 /* alquitizer.entitlements */,
 				B0499E992B740844007585E6 /* Preview Content */,
+				B0499EA12B74089F007585E6 /* AlquitizerListView.swift */,
+				B0499EA32B7408A8007585E6 /* AccountView.swift */,
+				B0499EA52B7408B0007585E6 /* OrderView.swift */,
 			);
 			path = alquitizer;
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0499E952B740843007585E6 /* ContentView.swift in Sources */,
+				B0499EA42B7408A8007585E6 /* AccountView.swift in Sources */,
+				B0499EA22B74089F007585E6 /* AlquitizerListView.swift in Sources */,
+				B0499E952B740843007585E6 /* AlquitizerTabView.swift in Sources */,
 				B0499E932B740843007585E6 /* alquitizerApp.swift in Sources */,
+				B0499EA62B7408B0007585E6 /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
