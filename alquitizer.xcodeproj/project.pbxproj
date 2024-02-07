@@ -15,6 +15,7 @@
 		B0499EA42B7408A8007585E6 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0499EA32B7408A8007585E6 /* AccountView.swift */; };
 		B0499EA62B7408B0007585E6 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0499EA52B7408B0007585E6 /* OrderView.swift */; };
 		B0499EA82B740CA6007585E6 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0499EA72B740CA6007585E6 /* Appetizer.swift */; };
+		B0499EAA2B740E87007585E6 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0499EA92B740E87007585E6 /* AppetizerListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B0499EA32B7408A8007585E6 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		B0499EA52B7408B0007585E6 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		B0499EA72B740CA6007585E6 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
+		B0499EA92B740E87007585E6 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				B0499EA32B7408A8007585E6 /* AccountView.swift */,
 				B0499EA52B7408B0007585E6 /* OrderView.swift */,
 				B0499EA72B740CA6007585E6 /* Appetizer.swift */,
+				B0499EA92B740E87007585E6 /* AppetizerListCell.swift */,
 			);
 			path = alquitizer;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0499EA82B740CA6007585E6 /* Appetizer.swift in Sources */,
+				B0499EAA2B740E87007585E6 /* AppetizerListCell.swift in Sources */,
 				B0499EA42B7408A8007585E6 /* AccountView.swift in Sources */,
 				B0499EA22B74089F007585E6 /* AppetizerListView.swift in Sources */,
 				B0499E952B740843007585E6 /* AppetizerTabView.swift in Sources */,

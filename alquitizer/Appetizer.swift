@@ -22,15 +22,15 @@ struct AppetizerResponse: Decodable {
     let request: [Appetizer]
 }
 
-struct MockData {
+enum MockData {
     static let sampleAppetizer = Appetizer(id: 001,
                                            name: "Test Appetizer",
                                            description: "This is the description for my appetizer. It's made with a lot of love and care. Please enjoy.",
                                            price: 9.99,
-                                           imageURL: "https://seanallen-course-backend.herokuapp.com/images/appetizers/chicken-dumplings.jpg",
+                                           imageURL: "https://i.imgur.com/2x6d3sM.png",
                                            calories: 99,
                                            protein: 19,
                                            carbs: 9)
-    
+
     static let appetizers = [sampleAppetizer, sampleAppetizer, sampleAppetizer, sampleAppetizer]
 }
