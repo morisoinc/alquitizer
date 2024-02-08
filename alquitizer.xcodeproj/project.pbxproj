@@ -21,6 +21,9 @@
 		B0499EB22B752EBC007585E6 /* AppetizersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0499EB12B752EBC007585E6 /* AppetizersListViewModel.swift */; };
 		B0499EB42B753568007585E6 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0499EB32B753568007585E6 /* Alert.swift */; };
 		B0499EBA2B753AC8007585E6 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0499EB92B753AC8007585E6 /* LoadingView.swift */; };
+		B0499EC62B756973007585E6 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0499EC52B756973007585E6 /* AppetizerDetailView.swift */; };
+		B0499EC82B756C2B007585E6 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0499EC72B756C2B007585E6 /* XDismissButton.swift */; };
+		B0499ECA2B756C43007585E6 /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0499EC92B756C43007585E6 /* APButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		B0499EB12B752EBC007585E6 /* AppetizersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersListViewModel.swift; sourceTree = "<group>"; };
 		B0499EB32B753568007585E6 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		B0499EB92B753AC8007585E6 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		B0499EC52B756973007585E6 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
+		B0499EC72B756C2B007585E6 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
+		B0499EC92B756C43007585E6 /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +130,7 @@
 			children = (
 				B0499EB12B752EBC007585E6 /* AppetizersListViewModel.swift */,
 				B0499EA12B74089F007585E6 /* AppetizerListView.swift */,
+				B0499EC52B756973007585E6 /* AppetizerDetailView.swift */,
 			);
 			path = AppetizerListView;
 			sourceTree = "<group>";
@@ -165,6 +172,7 @@
 		B0499EC32B756831007585E6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B0499ECD2B756F65007585E6 /* Buttons */,
 				B0499EC42B75684E007585E6 /* Cells */,
 				B0499EB92B753AC8007585E6 /* LoadingView.swift */,
 			);
@@ -177,6 +185,15 @@
 				B0499EA92B740E87007585E6 /* AppetizerListCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		B0499ECD2B756F65007585E6 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				B0499EC92B756C43007585E6 /* APButton.swift */,
+				B0499EC72B756C2B007585E6 /* XDismissButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,15 +269,18 @@
 				B0499EA82B740CA6007585E6 /* Appetizer.swift in Sources */,
 				B0499EB22B752EBC007585E6 /* AppetizersListViewModel.swift in Sources */,
 				B0499EB02B74119E007585E6 /* APError.swift in Sources */,
+				B0499ECA2B756C43007585E6 /* APButton.swift in Sources */,
 				B0499EAA2B740E87007585E6 /* AppetizerListCell.swift in Sources */,
 				B0499EA42B7408A8007585E6 /* AccountView.swift in Sources */,
 				B0499EBA2B753AC8007585E6 /* LoadingView.swift in Sources */,
 				B0499EA22B74089F007585E6 /* AppetizerListView.swift in Sources */,
 				B0499EAE2B7410C2007585E6 /* NetworkManager.swift in Sources */,
+				B0499EC62B756973007585E6 /* AppetizerDetailView.swift in Sources */,
 				B0499E952B740843007585E6 /* AppetizerTabView.swift in Sources */,
 				B0499EB42B753568007585E6 /* Alert.swift in Sources */,
 				B0499E932B740843007585E6 /* alquitizerApp.swift in Sources */,
 				B0499EA62B7408B0007585E6 /* OrderView.swift in Sources */,
+				B0499EC82B756C2B007585E6 /* XDismissButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
