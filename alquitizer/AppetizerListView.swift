@@ -8,15 +8,19 @@
 import SwiftUI
 
 struct AppetizerListView: View {
-    
     @ObservedObject var viewModel = AppetizersListViewModel()
-    
+
     var body: some View {
         NavigationView {
             List(viewModel.appetizers) { appetizer in
                 AppetizerListCell(appetizer: appetizer)
             }
-                .navigationTitle("🫒 Appetizers")
+            .navigationTitle("🫒 Appetizers")
+        }
+        .alert(item: $viewModel.alertItem) { alertItem in
+            Alert(title: alertItem.title,
+                  message: alertItem.message,
+                  dismissButton: alertItem.dismissButton)
         }
     }
 }
