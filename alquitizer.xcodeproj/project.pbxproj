@@ -18,6 +18,7 @@
 		B0499EAA2B740E87007585E6 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0499EA92B740E87007585E6 /* AppetizerListCell.swift */; };
 		B0499EAE2B7410C2007585E6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0499EAD2B7410C2007585E6 /* NetworkManager.swift */; };
 		B0499EB02B74119E007585E6 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0499EAF2B74119E007585E6 /* APError.swift */; };
+		B0499EB22B752EBC007585E6 /* AppetizersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0499EB12B752EBC007585E6 /* AppetizersListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		B0499EA92B740E87007585E6 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 		B0499EAD2B7410C2007585E6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		B0499EAF2B74119E007585E6 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
+		B0499EB12B752EBC007585E6 /* AppetizersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				B0499EA92B740E87007585E6 /* AppetizerListCell.swift */,
 				B0499EAD2B7410C2007585E6 /* NetworkManager.swift */,
 				B0499EAF2B74119E007585E6 /* APError.swift */,
+				B0499EB12B752EBC007585E6 /* AppetizersListViewModel.swift */,
 			);
 			path = alquitizer;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0499EA82B740CA6007585E6 /* Appetizer.swift in Sources */,
+				B0499EB22B752EBC007585E6 /* AppetizersListViewModel.swift in Sources */,
 				B0499EB02B74119E007585E6 /* APError.swift in Sources */,
 				B0499EAA2B740E87007585E6 /* AppetizerListCell.swift in Sources */,
 				B0499EA42B7408A8007585E6 /* AccountView.swift in Sources */,
