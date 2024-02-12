@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct AppetizerTabView: View {
+    @EnvironmentObject var order: Order
+
     var body: some View {
         TabView {
             TabView {
@@ -23,9 +25,9 @@ struct AppetizerTabView: View {
                     .tabItem {
                         Label("Order", systemImage: "bag")
                     }
+                    .badge(order.items.count)
             }
         }
-        .accentColor(.brandPrimary)
     }
 }
 
