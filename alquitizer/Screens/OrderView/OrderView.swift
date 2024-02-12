@@ -19,7 +19,8 @@ struct OrderView: View {
                     }
                     .onDelete(perform: order.deleteItems)
                 }
-                .listStyle(PlainListStyle())
+                .listRowSeparator(.hidden)
+                .listStyle(.plain)
 
                 Button {
                     // Place order

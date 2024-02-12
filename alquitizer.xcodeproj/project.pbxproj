@@ -28,6 +28,7 @@
 		B0499ED22B757B6C007585E6 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0499ED12B757B6C007585E6 /* String+Ext.swift */; };
 		B0499ED42B758CB2007585E6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0499ED32B758CB2007585E6 /* User.swift */; };
 		B064BEC72B7A8C3C00821C2D /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = B064BEC62B7A8C3C00821C2D /* Order.swift */; };
+		B064BEC92B7A94A100821C2D /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B064BEC82B7A94A100821C2D /* CustomModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		B0499ED12B757B6C007585E6 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		B0499ED32B758CB2007585E6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B064BEC62B7A8C3C00821C2D /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		B064BEC82B7A94A100821C2D /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 				B0499ECD2B756F65007585E6 /* Buttons */,
 				B0499EC42B75684E007585E6 /* Cells */,
 				B0499EB92B753AC8007585E6 /* LoadingView.swift */,
+				B064BEC82B7A94A100821C2D /* CustomModifiers.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0499EA82B740CA6007585E6 /* Appetizer.swift in Sources */,
+				B064BEC92B7A94A100821C2D /* CustomModifiers.swift in Sources */,
 				B0499EB22B752EBC007585E6 /* AppetizersListViewModel.swift in Sources */,
 				B0499EB02B74119E007585E6 /* APError.swift in Sources */,
 				B064BEC72B7A8C3C00821C2D /* Order.swift in Sources */,

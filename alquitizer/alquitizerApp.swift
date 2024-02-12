@@ -9,9 +9,8 @@ import SwiftUI
 
 @main
 struct alquitizerApp: App {
-    
     var order = Order()
-    
+
     var body: some Scene {
         WindowGroup {
             AppetizerTabView().environmentObject(order)
