@@ -36,7 +36,10 @@ struct AccountView: View {
                         .keyboardType(.emailAddress)
                         .autocapitalization(.none)
                         .disableAutocorrection(true)
-                    DatePicker("Birthday", selection: $viewModel.user.birthday, displayedComponents: .date)
+                    DatePicker("Birthday", 
+                               selection: $viewModel.user.birthday,
+                               in: Date().oneHundredTenYearsAgo...Date().eighteenYearsAgo,
+                               displayedComponents: .date)
 
                     Button {
                         viewModel.saveChanges()
@@ -47,7 +50,7 @@ struct AccountView: View {
 
                 Section(header: Text("Requests")) {
                     Toggle("Extra Napkins", isOn: $viewModel.user.extraNapkins)
-                    Toggle("Frequent Refils", isOn: $viewModel.user.frequentRefils)
+                    Toggle("Frequent Refills", isOn: $viewModel.user.frequentRefills)
                 }
                 .toggleStyle(SwitchToggleStyle(tint: .brandPrimary))
             }
